@@ -1,0 +1,109 @@
+/*
+#e22829
+#06b1a1
+#f1a011
+#b3102f
+#e47296
+*/
+body {
+    background-color: #fffbf0;
+}
+.navbar {
+    background-color: #06b1a1;
+}
+
+.logo-header {
+    height: 80px;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #e47296;
+    color: #f1a011;
+}
+
+#cabecalho .nav .nav-link {
+
+    color: #f1a011;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    background-color: #f1a011;
+}
+
+#carousel .carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#about-us  img{
+    height: 425px;
+    object-fit: cover;
+}
+
+.section-tittle {
+    font-family: 'Pacifico', cursive;
+}
+
+.section-tittle span{
+    color: #06b1a1;
+}
+
+#lancamentos img {
+    height: 300px;
+    object-fit: cover;
+}
+
+#lancamentos .container {
+    border-top: 1px solid #e47296;
+}
+
+#quilhas .container {
+    border-top: 1px solid #f1a011;
+}
+
+.text-colored {
+    color: #06b1a1;
+}
+
+.nav .nav-link.active,
+#fale-conosco button {
+    background-color: #06b1a1;
+    color: #f1a011;
+}
+
+#fale-conosco button:hover {
+    background-color: #e47296;
+    color: #f1a011;
+}
+
+.nav .nav-link {
+    color: #06b1a1;
+}
+
+#quilhas img {
+    height: 250px;
+    object-fit: cover;
+}
+
+#fale-conosco .container {
+    border-top: 1px solid #e47296;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    #carousel .carousel-item img {
+        height: 280px;
+    }
+
+    
+}
